@@ -1,0 +1,9 @@
+{
+  "editor.defaultFormatter": "SimonSiefke.prettier-vscode",
+  "editor.formatOnSave": true,
+  "python.formatting.provider": "black",
+  "python.formatting.blackPath": "/home/user001/.local/bin/black"
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python"
+  }
+}
