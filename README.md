@@ -15,9 +15,11 @@ Out of curiousity, I wondered what it would be like if the election would be con
 - The smart contract takes candidates' names and voter Addresses ( These should be blockchain addresses unique to each voter ) on deployment and these are stored on chain ( this could be quite expensive ). Out of this a voter register ( an array of voter address ) is created.
 - On the front-end, the deployer of the contract should also provide a copy of the voters' register to which is used to validate users who are eligible to vote.
 
-<!-- provide an image of the home page -->
+![Landing Page](https://github.com/danny-254/blockchain-voting/blob/master/front-end/public/HomePageScreenshot.png?raw=true)
 
 - If the address provided exists in the voters' register, the user is then redirected to the voting page where they select a candidate of their choice and submit.
+
+![Voting Page](https://github.com/danny-254/blockchain-voting/blob/master/front-end/public/VotingPageScreenshot.png?raw=true)
 
 - On submission, the smart contract validates that the user address exists on the voter register stored on chain and that they have not cast a vote yet. If these requirements are met, the users vote is counted and added to the total tally and the supplied address marked as voted.
 
@@ -25,4 +27,4 @@ Out of curiousity, I wondered what it would be like if the election would be con
 
 - As soon as voting is concluded, election results can be view of the results page where there is tabulated data showing who won the election, the number of votes they got and a percentage margin of how much they got from the total votes cast.
 
-<!-- provide image of results -->
+![Results Page](https://github.com/danny-254/blockchain-voting/blob/master/front-end/public/ResultsPageScreenshot.png?raw=true)
